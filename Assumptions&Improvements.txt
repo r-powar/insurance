@@ -1,0 +1,12 @@
+Assumptions
+  
+  1. I implemented the solution in React along with Redux, which might have been an overkill for this solution. But my reason to use Redux was to simulate a system where the state is decoupled, which will be useful when the application is scaled out
+
+  2. The data provided in vehicle.json and coverages.json. I used this to construct the initial state design. In addition I used this data to simulate a fetch request as seen in utilities folder, I assumed this data in real system will be served via a backend service. You may notice a lag in data being rendered on page refresh or initial render because of this.
+
+
+Improvements
+
+   1. The CSS could use more work, I was having  trouble making it completely responsive and requires some additional refactoring.
+   2. The action and reducers could be broken down further into multiple files
+
